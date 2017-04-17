@@ -1,0 +1,90 @@
+.contacts {
+  margin-bottom: 150px;
+
+  .sections-margin();
+}
+
+.contacts__link {
+  text-decoration: none;
+}
+
+.contacts__list {
+  padding: 90px 45px 70px;
+
+  list-style: none;
+
+  background-color: @post-bg;
+}
+
+.contacts__item a {
+  color: @text;
+  text-decoration: none;
+}
+
+.contacts__item-title {
+  font: 28px @semibold;
+  color: #323d43;
+  text-transform: uppercase;
+}
+
+.contacts__item-info {
+  font: 30px;
+  line-height: 48px;
+}
+
+.contacts__street-name {
+  position: relative;
+
+  height: 375px;
+  padding: 155px 60px;
+
+  font-size: 46px;
+  color: #ffffff;
+
+  background-color: @yellow-bg;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 60px;
+
+    width: 58px;
+    height: 6px;
+
+    background-color: #ffffff;
+  }
+}
+
+.contacts__text {
+  padding: 70px 90px;
+
+  color: @text-transparent;
+}
+
+.contacts__phone-numbers {
+  position: relative;
+
+  height: 375px;
+  padding: 155px 60px;
+
+  color: #ffffff;
+
+  background-color: #212121;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 60px;
+
+    width: 58px;
+    height: 6px;
+
+    background-color: #ffffff;
+  }
+}
+
+.contacts__phone-numbers p {
+  font-size: 46px;
+}

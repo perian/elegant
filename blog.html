@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Elegant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header  page-header--small">
       <div class="page-header__top">
         <div class="page-header__logo">
           <img src="/" width="366" height="81" alt="Elegant">
@@ -13,15 +15,15 @@
         <div class="main-nav  main-nav--opened"></div>
       </div>
     </header>
-    <section class="blog  post">
-      <div class="wrapper wrapper__blog">
-        <div class="blog__item">
+    <section class="blog">
+      <div class="blog__item">
+        <div class="blog__wrapper">
           <div class="blog__item-img">
             <img src="/" width="558" height="371" alt="Woman writing in notebook">
           </div>
           <div class="blog__info">
-            <h4 class="blog__info-header">This is the Title of Your Post</h4>
-            <p class="blog__date">14 September 2014</p>
+            <h4 class="blog__info-header  blog__info-header--black">This is the Title of Your Post</h4>
+            <p class="blog__date  blog__date--yellow">14 September 2014</p>
             <p class="blog__info-text">
               This looks. I want to complexity.
               That's come to testify to complexity.
@@ -36,13 +38,16 @@
             <a class="btn" href="/">Read More</a>
           </div>
         </div>
-        <div class="blog__item">
+      </div>
+      <div class="blog__rectangle"></div>
+      <div class="blog__item">
+        <div class="blog__wrapper">
           <div class="blog__item-img">
             <img src="/" width="558" height="371" alt="">
           </div>
           <div class="blog__info">
-            <h4 class="blog__info-header">This is the Title of Your Post</h4>
-            <p class="blog__date">14 September 2014</p>
+            <h4 class="blog__info-header  blog__info-header--black">This is the Title of Your Post</h4>
+            <p class="blog__date  blog__date--yellow">14 September 2014</p>
             <p class="blog__info-text">
               This looks. I want to complexity.
               That's come to testify to complexity.
@@ -59,47 +64,53 @@
         </div>
       </div>
       <div class="blog__nav">
-        <h4 class="blog__nav-header">Recent Posts</h4>
-        <ul class="blog__nav-list">
-          <li>This is the Title of Your Post</li>
-          <li>This is the Title of Your Post</li>
-          <li>This is the Title of Your Post</li>
-          <li>This is the Title of Your Post</li>
-        </ul>
+        <div class="blog__nav-item">
+          <h4 class="blog__nav-item-header">Recent Posts</h4>
+          <ul class="blog__nav-list">
+            <li class="blog__nav-list-item">This is the Title of Your Post</li>
+            <li class="blog__nav-list-item">This is the Title of Your Post</li>
+            <li class="blog__nav-list-item">This is the Title of Your Post</li>
+            <li class="blog__nav-list-item">This is the Title of Your Post</li>
+          </ul>
+        </div>
+        <div class="blog__nav-item">
+          <h4 class="blog__nav-item-header">Categories</h4>
+          <ul class="blog__nav-list">
+            <li class="blog__nav-list-item">Art</li>
+            <li class="blog__nav-list-item">Business</li>
+            <li class="blog__nav-list-item">Design</li>
+            <li class="blog__nav-list-item">Code</li>
+          </ul>
+        </div>
+        <div class="blog__nav-item">
+          <h4 class="blog__nav-item-header">Projects</h4>
+          <ul class="blog__nav-list">
+            <li class="blog__nav-list-item">
+              <a href="/"><img src="/" alt="paper with letters"></a>
+            </li>
+            <li class="blog__nav-list-item">
+              <a href="/"><img src="/" alt="magazine picture"></a>
+            </li>
+            <li class="blog__nav-list-item">
+              <a href="/"><img src="/" alt="wallet"></a>
+            </li>
+            <li class="blog__nav-list-item">
+              <a href="/"><img src="/" alt="documents"></a>
+            </li>
+          </ul>
+        </div>
+        <a class="btn" href="/">Load More Posts</a>
       </div>
-      <div class="blog__nav">
-        <h4 class="blog__nav-header">Categories</h4>
-        <ul class="blog__nav-list">
-          <li>Art</li>
-          <li>Business</li>
-          <li>Design</li>
-          <li>Code</li>
-        </ul>
-      </div>
-      <div class="blog__nav">
-        <h4 class="blog__nav-header">Projects</h4>
-        <div class="blog__nav-img">
-          <img src="/" alt="paper with letters">
-        </div>
-        <div class="blog__nav-img">
-          <img src="/" alt="magazine picture">
-        </div>
-        <div class="blog__nav-img">
-          <img src="/" alt="wallet">
-        </div>
-        <div class="blog__nav-img">
-          <img src="/" alt="documents">
-        </div>
-      </div>
-      <a class="btn" href="/">Load More Posts</a>
     </section>
+    <footer class="page-footer">nj tcnm
+      <div class="wrapper">
+        <p class="page-footer__copyright">
+          © 2014 Designed and Developed by Diogo Dantas
+        </p>
+        <p class="page-footer__email">
+          Email: imdiogodantas@gmail.com
+        </p>
+      </div>
+    </footer>
   </body>
-  <footer class="page-footer">
-    <p class="page-footer__copyright">
-      © 2014 Designed and Developed by Diogo Dantas
-    </p>
-    <p class="page-footer__email">
-      Email: imdiogodantas@gmail.com
-    </p>
-  </footer>
 </html>
